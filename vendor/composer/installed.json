@@ -1,0 +1,112 @@
+[
+    {
+        "name": "coderockr/php-query",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Coderockr/phpQuery.git",
+            "reference": "942dff329b484bcadedce5255dab2ea01c9b8d6a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Coderockr/phpQuery/zipball/942dff329b484bcadedce5255dab2ea01c9b8d6a",
+            "reference": "942dff329b484bcadedce5255dab2ea01c9b8d6a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-02-05T16:04:06+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-0": {
+                "phpQuery": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Mit"
+        ],
+        "authors": [
+            {
+                "name": "Duvanmonsa",
+                "email": "duvanmonsa@gmail.com",
+                "homepage": "https://github.com/duvanmonsa",
+                "role": "Developer"
+            },
+            {
+                "name": "Elton Minetto",
+                "email": "eminetto@coderockr.com",
+                "homepage": "https://github.com/eminetto",
+                "role": "Developer"
+            }
+        ],
+        "description": "phpQuery",
+        "homepage": "https://github.com/coderockr/phpQuery",
+        "keywords": [
+            "lib",
+            "phpQuery"
+        ]
+    },
+    {
+        "name": "php-curl-class/php-curl-class",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-curl-class/php-curl-class.git",
+            "reference": "3f4e0fc49ef9cdb06b41e2f178f337894af43d4e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-curl-class/php-curl-class/zipball/3f4e0fc49ef9cdb06b41e2f178f337894af43d4e",
+            "reference": "3f4e0fc49ef9cdb06b41e2f178f337894af43d4e",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*",
+            "squizlabs/php_codesniffer": "*"
+        },
+        "time": "2017-08-06T20:52:27+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Curl\\": "src/Curl/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Unlicense"
+        ],
+        "authors": [
+            {
+                "name": "Zach Borboa"
+            }
+        ],
+        "description": "PHP Curl Class makes it easy to send HTTP requests and integrate with web APIs.",
+        "homepage": "https://github.com/php-curl-class/php-curl-class",
+        "keywords": [
+            "api",
+            "class",
+            "client",
+            "curl",
+            "framework",
+            "http",
+            "http client",
+            "json",
+            "php",
+            "requests",
+            "rest",
+            "restful",
+            "web service",
+            "xml"
+        ]
+    }
+]
